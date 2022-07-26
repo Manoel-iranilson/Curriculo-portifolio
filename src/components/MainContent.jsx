@@ -1,11 +1,18 @@
 import React from 'react';
+import About from './About';
+
 import "../styles/components/maincontent.sass"
-// import { Container } from './styles';
+import Repositories from './repositories';
+import Technologies from './Technologies';
+
+
 
 function MainContent() {
   return (
     <main id='main-content'>
-        MainCOntent
+        <About/>
+        <Technologies/>
+        <Repositories/>
     </main>
   );
 }
